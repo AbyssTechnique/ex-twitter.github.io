@@ -1,0 +1,134 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  position: fixed;
+  padding-bottom: 5px;
+  top: 0;
+  background-color: white;
+  color: grey;
+  list-style-type: none;
+  width: 100%;
+  height: 40px;
+}
+.menu {
+  position: absolute;
+  left: 2%;
+  top: 22%;
+}
+.menu img {
+  width: 24px;
+  height: 24px;
+}
+.menu li {
+  display: inline;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.menu li a {
+  color: grey;
+}
+li a {
+  text-decoration: none;
+}
+.menu li:hover {
+  border-bottom: 2px blue solid;
+}
+.lang {
+  position: absolute;
+  right: 2%;
+  top: 22%;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url(http://www.humanite-biodiversite.fr/system/attachments/8669/original/animaux-insolites-dragon-abysses-creature.jpg?1427182684);
+  background-size: cover;
+}
+.description {
+  height: 60%;
+  position: absolute;
+  width: 45%;
+  left: 5%;
+  top: 5%;
+  color: white;
+  font-size: 20px;
+}
+h1 {
+  font-size: 40px;
+}
+.form1, .form2 {
+  padding: 10px;
+  position: absolute;
+  background-color: white;
+  border: 1px black solid;
+  width: 30%;
+  right: 10%;
+  border-radius: 5%;
+}
+.form1 {
+  top: 10%;
+  font-size: 14px;
+  padding-right: 18px;
+}
+.form1 a {
+  color: blue;
+  text-decoration: none;
+}
+.form1 input[type=submit] {
+  color: white;
+  background-color: blue;
+  border-radius: 10%;
+  border: 1px blue;
+  height: 22px;
+  width: 35%;
+}
+#rekt {
+  width: 55%;
+}
+.form2 {
+  top: 32%;
+  padding-right: 18px;
+}
+.form2 p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#inscription {
+  margin-left: 54%;
+  color: black;
+  background-color: orange;
+  border-radius: 10%;
+  border: 1px yellow;
+  height: 22px;
+}
+.inputext {
+  width: 100%;
+}
+input {
+  margin: 3px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  text-align: center;
+}
+ul {
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 5px;
+  font-size: 14px;
+  color: white;
+}
+ul li a {
+  color: white;
+}
