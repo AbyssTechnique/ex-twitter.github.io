@@ -9,22 +9,29 @@
     <header>
       <nav>
         <div class="menu">
-          <li><a href=""><img href="https://files.slack.com/files-pri/T04735J22-F0JBPA39A/logo.png"></img>Acceuil</a></li>
+          <li><a href=""><img src="https://files.slack.com/files-pri/T04735J22-F0JBPA39A/logo.png" alt="logo" ></img>Acceuil</a></li>
           <li><a href="">A propos</a></li>
         </div>
         <div class="lang">
-          <li>
-            Langue : français
-            <ul></ul>
-          </li>
+          <select name="langue">
+            <option selected disabled>Language :</option>
+            <option value="value1">English</option>
+            <option value="value2">Français</option>
+            <option value="value3">Italiano</option>
+          </select>
         </div>
       </nav>
     </header>
     <div class="container">
+      <ul class="slideshow">
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+      </ul>
       <div class="description">
         <h1>Bienvenue sur Abyss.</h1>
-        <p>Connectez-vous à vos amis — et d'autres personnes fascinantes. Recevez des mises à jour instantanées sur les choses qui vous intéressent. Et regardez les événements se dérouler, en temps réel, sous tous les angles.</p>
-        <p></p>
+        <p>Connectez-vous à vos amis — et d'autres créatures fascinantes. Recevez des mises à jour instantanées sur les choses qui vous intéressent. Et regardez les événements se dérouler, en temps réel, sous tous les angles.</p>
+        <p id="swag">Dans les ténèbres des abysses...</p>
         <a href=""></a>
         <a href=""></a>
       </div>
@@ -64,7 +71,7 @@
         <li><a href="">Médias</a></li>
         <li><a href="">Développeurs</a></li>
         <li><a href="">Annuaire</a></li>
-        <li>© 2016 Twitter</li>
+        <li>© 2016 Abyss</li>
       </ul>
     </footer>
   </body>
